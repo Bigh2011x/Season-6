@@ -1,0 +1,8 @@
+{
+    "item.functionalstorage.diamond_upgrade": "Amélioration en aluminium",
+    "item.functionalstorage.gold_upgrade": "Amélioration en acier",
+    "item.functionalstorage.copper_upgrade": "Amélioration de bronze",
+    "item.functionalstorage.netherite_upgrade": "Amélioration en inox",
+    "block.functionalstorage.storage_controller": "Contrôleur de tiroir",
+    "block.functionalstorage.framed_storage_controller": "Contrôleur de tiroir armaturé"
+}

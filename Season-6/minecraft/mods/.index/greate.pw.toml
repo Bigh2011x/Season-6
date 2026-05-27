@@ -1,0 +1,25 @@
+filename = 'greate-0.0.77.jar'
+name = 'Greate'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '0.0.77'
+
+[download]
+hash = 'e299abc156ea924c5b54d4c49e0d32460aa8926b5ca369f8b03025c9abc4d906a5ec12522daa10efe18a0efc355a436a6f1a9463aeea6d4c2bcfc5ee10766e7c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8wDcQuht/versions/7HxrMkRX/greate-0.0.77.jar'
+
+[update.modrinth]
+mod-id = '8wDcQuht'
+version = '7HxrMkRX'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7tG215v7'
+type = 'REQUIRED'

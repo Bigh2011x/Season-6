@@ -1,0 +1,21 @@
+filename = 'gttruesteam-0.3.0.jar'
+name = 'GregTech: True age of Steam'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gttruesteam-0.3.0.jar'
+
+[download]
+hash = '55b7d015f73e8e127db6ce4d8455fbec1ff62f38'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8023188
+project-id = 1466426
+
+[[x-prismlauncher-dependencies]]
+addonId = '890405'
+type = 'REQUIRED'

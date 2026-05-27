@@ -1,0 +1,4 @@
+#40A still_life:barren_tundra
+#554 still_life:lush_tundra
+#420 still_life:tundra_river
+#40F javd:void

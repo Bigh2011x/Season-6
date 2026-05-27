@@ -1,0 +1,10 @@
+{
+    "filters": [
+      {
+        "id": "/emi:/crafting/repairing/.*/"
+      },
+      {
+        "id": "/_legacy_updater/"
+      }
+    ]
+  }

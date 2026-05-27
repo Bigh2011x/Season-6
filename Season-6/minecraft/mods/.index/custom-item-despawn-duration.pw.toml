@@ -1,0 +1,18 @@
+filename = 'custom-item-despawn-duration-forge-0.1.0-1.20.1.jar'
+name = 'Custom Item Despawn Duration'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge 1.20.1] v0.1.0'
+
+[download]
+hash = 'da35c88e45eaaa8a74b954f4f8215fd8f7dbf889'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5526802
+project-id = 1059350

@@ -1,0 +1,45 @@
+filename = 'systeams-1.20.1-1.9.2.jar'
+name = 'Thermal Systeams'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'systeams-1.20.1-1.9.2.jar'
+
+[download]
+hash = '195122386d911c82c37346dbb7be3cb2b0d11d13'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6790580
+project-id = 693382
+
+[[x-prismlauncher-dependencies]]
+addonId = '222880'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '573674'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268560'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69162'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69163'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '281849'
+type = 'OPTIONAL'

@@ -1,0 +1,21 @@
+filename = 'CapeJS-1.0.0-1.20.1-forge.jar'
+name = 'CapeJS'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CapeJS 1.0.0-1.20.1-forge'
+
+[download]
+hash = '584ff1b8cec33f0382a0482760a1a12cb5120a62'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4744757
+project-id = 911145
+
+[[x-prismlauncher-dependencies]]
+addonId = '238086'
+type = 'REQUIRED'

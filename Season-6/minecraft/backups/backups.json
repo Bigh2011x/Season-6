@@ -1,0 +1,43 @@
+{
+  "backups": [
+    {
+      "worldName": "New World",
+      "createTime": 1779877800057,
+      "backupLocation": "/home/bigh/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Monifactory/minecraft/backups/2026-5-27_11-30-0.zip",
+      "size": 6440836,
+      "ratio": 0.69049615,
+      "sha1": "e1376cab806cf62f98b1083b6a4b0267ff91d3c0",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    },
+    {
+      "worldName": "New World",
+      "createTime": 1779879600091,
+      "backupLocation": "/home/bigh/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Monifactory/minecraft/backups/2026-5-27_12-0-0.zip",
+      "size": 12611412,
+      "ratio": 0.6198503,
+      "sha1": "6ae68003a4e24aac1d05ecdcebb7e8b530517587",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    },
+    {
+      "worldName": "New World",
+      "createTime": 1779883200111,
+      "backupLocation": "/home/bigh/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Monifactory/minecraft/backups/2026-5-27_13-0-0.zip",
+      "size": 15221058,
+      "ratio": 0.62898564,
+      "sha1": "4f723687876003a7dbd71eab1fbf05041ac70e35",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    }
+  ]
+}

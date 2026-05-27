@@ -1,0 +1,15 @@
+{
+	"shown_reasons": {
+		"Create6Addons": true,
+		"MixinApply": true,
+		"WaterMediaVLCMissing": true
+	},
+	"privacy": {
+		"accepted_privacy_info": "5 (2026-02-09)"
+	},
+	"analysis": {
+		"jdeps": {
+			"include_nested": true
+		}
+	}
+}

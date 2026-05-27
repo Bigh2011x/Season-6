@@ -1,0 +1,25 @@
+filename = 'mae2-2.0.0-beta.j.jar'
+name = 'Modern AE2 Additions'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'mae2-2.0.0-beta.j.jar'
+
+[download]
+hash = '63968e0c6d75101c58fd3cc6021cb33ad1207dfa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7479141
+project-id = 1028068
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '890405'
+type = 'OPTIONAL'

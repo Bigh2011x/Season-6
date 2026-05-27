@@ -1,0 +1,25 @@
+filename = 'fulleng-forge-1.7.3-1.20.1.jar'
+name = 'Fullblock Energistics'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.7.3 (Forge 1.20.1)'
+
+[download]
+hash = '100bd44fe1295dbaedba5744aec9f2e9c797bc7c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6088198
+project-id = 776293
+
+[[x-prismlauncher-dependencies]]
+addonId = '688367'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223794'
+type = 'REQUIRED'
