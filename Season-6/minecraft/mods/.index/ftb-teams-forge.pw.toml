@@ -1,5 +1,5 @@
 filename = 'ftb-teams-forge-2001.3.2.jar'
-name = 'FTB Teams (NeoForge)'
+name = 'FTB Teams'
 side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

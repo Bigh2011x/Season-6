@@ -1,0 +1,21 @@
+filename = 'tinypipes-1.20-4.0.1.jar'
+name = 'Tiny Pipes'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'tinypipes-1.20-4.0.1.jar'
+
+[download]
+hash = 'f156b53c4f7a383c13a9d8b44dab082cd55fc2a5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7764498
+project-id = 555132
+
+[[x-prismlauncher-dependencies]]
+addonId = '453746'
+type = 'OPTIONAL'

@@ -1,0 +1,18 @@
+filename = 'tinygates-1.20-4.0.0.jar'
+name = 'Tiny Gates'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20-4.0.0'
+
+[download]
+hash = '3282590c573f5c1194f1267ad8e81bbd89ffb7a38a5c9ca35d4d521b27a0dcb4b61fdbd3245cd6e6c3869dcf5fd2e61f8e18422ebb0ea301999e60000cce77df'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vsk0qTRw/versions/nZLiv0NX/tinygates-1.20-4.0.0.jar'
+
+[update.modrinth]
+mod-id = 'vsk0qTRw'
+version = 'nZLiv0NX'

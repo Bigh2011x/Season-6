@@ -1,35 +1,18 @@
-[12:54:17] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[12:54:17] [INIT] Loaded plugins:
-[12:54:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[12:54:17] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[12:54:17] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
-[12:54:17] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[12:54:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[12:54:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[12:54:17] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[12:54:17] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
-[12:54:17] [INIT] - site.siredvin.gttruesteam.integrations.kubejs.Plugin
-[12:54:17] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[12:54:17] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
-[12:54:17] [INIT] - com.almostreliable.morejs.Plugin
-[12:54:17] [INIT] - dev.thestaticvoid.capejs.kubejs.CapeJSPlugin
-[12:54:17] [INIT] - electrolyte.greate.compat.kubejs.KubeJSGreatePlugin
-[12:54:17] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[12:54:17] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[12:54:17] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
-[12:54:17] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[12:54:17] [INIT] - net.neganote.monilabs.integration.kjs.MoniKubeJSPlugin
-[12:54:17] [INFO] Loaded script client_scripts:_initial.js in 0.001 s
-[12:54:17] [INFO] Loaded script client_scripts:mods/optionalCompats/architects_palette.js in 0.0 s
-[12:54:17] [INFO] Loaded script client_scripts:mods/RPC.js in 0.001 s
-[12:54:17] [INFO] Loaded script client_scripts:Fixes_Client.js in 0.0 s
-[12:54:17] [INFO] Loaded script client_scripts:deprecation_pipeline.js in 0.001 s
-[12:54:17] [INFO] Loaded script client_scripts:JEI_modespecific.js in 0.0 s
-[12:54:17] [INFO] Loaded script client_scripts:_packmode.js in 0.001 s
-[12:54:17] [INFO] Loaded script client_scripts:Dev_Capes.js in 0.0 s
-[12:54:17] [INFO] Loaded script client_scripts:JEI.js in 0.001 s
-[12:54:17] [INFO] tooltips.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FusionReactorMachine'
-[12:54:17] [INFO] Loaded script client_scripts:tooltips.js in 0.004 s
-[12:54:17] [INFO] Loaded script client_scripts:nukelists.js in 0.0 s
-[12:54:17] [INFO] Loaded 11/11 KubeJS client scripts in 0.02 s with 0 errors and 0 warnings
-[12:54:25] [INFO] Client resource reload complete!
+[20:23:37] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[20:23:37] [INIT] Loaded plugins:
+[20:23:37] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:23:37] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:23:37] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:23:37] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:23:37] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[20:23:37] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:23:37] [INIT] - com.rubenverg.moldraw.kubejs.MolDrawKJSPlugin
+[20:23:37] [INIT] - electrolyte.greate.compat.kubejs.KubeJSGreatePlugin
+[20:23:37] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:23:37] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[20:23:37] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[20:23:37] [ERROR] ! jei/hidden_items.js#1: ReferenceError: "JEIEvents" is not defined.
+[20:23:37] [ERROR] ! jei/hidden_categories.js#1: ReferenceError: "JEIEvents" is not defined.
+[20:23:37] [INFO] Loaded script client_scripts:tooltips.js in 0.001 s
+[20:23:37] [INFO] Loaded 1/3 KubeJS client scripts in 0.024 s with 0 errors and 0 warnings
+[20:23:44] [INFO] Client resource reload complete!

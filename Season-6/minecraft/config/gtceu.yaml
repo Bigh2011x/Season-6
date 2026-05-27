@@ -10,7 +10,7 @@ recipes:
 
   # Change the recipe of Rods in the Lathe to 1 Rod and 2 Small Piles of Dust, instead of 2 Rods.
   # Default: true
-  harderRods: false
+  harderRods: true
 
   # Whether to make crafting recipes for Bricks, Firebricks, Nether Bricks, and Coke Bricks harder.
   # Default: false
@@ -43,11 +43,11 @@ recipes:
   hardMiscRecipes: false
 
   # Whether to make Glass related recipes harder. Default: true
-  hardGlassRecipes: false
+  hardGlassRecipes: true
 
   # Whether to nerf the Paper crafting recipe.
   # Default: true
-  nerfPaperCrafting: false
+  nerfPaperCrafting: true
 
   # Recipes for items like Iron Doors, Trapdoors, Anvil require Iron Plates, Rods, and more.
   # Default: true
@@ -59,11 +59,11 @@ recipes:
 
   # Whether to remove charcoal smelting recipes from the vanilla furnace.
   # Default: true
-  harderCharcoalRecipe: false
+  harderCharcoalRecipe: true
 
   # Whether to make the Flint and Steel recipe require steel parts.
   # Default: true.
-  flintAndSteelRequireSteel: false
+  flintAndSteelRequireSteel: true
 
   # Whether to remove Vanilla Block Recipes from the Crafting Table.
   # Default: false
@@ -87,7 +87,7 @@ recipes:
 
   # Whether tools should have enchants or not. Like the flint sword getting fire aspect.
   # Default: false
-  enchantedTools: true
+  enchantedTools: false
 
   # Whether to enable macerator decomposition recycling
   # Default: true
@@ -139,7 +139,7 @@ worldgen:
 
     # The maximum random offset (in blocks) from the grid for generating an ore vein.
     # Default: 12
-    oreVeinRandomOffset: 4
+    oreVeinRandomOffset: 12
 
     # Prevents regular vanilla ores from being generated outside GregTech ore veins
     # Default: true
@@ -249,8 +249,6 @@ machines:
   # Entries must be in a fully qualified format. For example: appeng.tile.networking.TileController
   # Default: none
   worldAcceleratorBlacklist:
-    - org.zeith.solarflux.block.SolarPanelBlock
-    - org.zeith.solarflux.block.SolarPanelTile
 
   # Whether to use GT6-style pipe and cable connections, meaning they will not auto-connect unless placed directly onto another pipe or cable.
   # Default: true
@@ -300,7 +298,7 @@ machines:
   # This is intended for modpack developers only, and is not playable without custom tweaks or addons.
   # Other mods can override this to true, regardless of the config file.
   # Default: false
-  highTierContent: true
+  highTierContent: false
 
   # Whether the Assembly Line should require the item inputs to be in order.
   # Default: true
@@ -309,7 +307,7 @@ machines:
   # Whether the Assembly Line should require the fluid inputs to be in order.
   # (Requires Ordered Assembly Line Item Inputs to be enabled.)
   # Default: true
-  orderedAssemblyLineFluids: false
+  orderedAssemblyLineFluids: true
 
   # Default maximum parallel of steam multiblocks
   # Default: 8
@@ -566,7 +564,7 @@ compat:
 
     # Enable GTEU to FE (and vice versa) Converters.
     # Default: false
-    enableFEConverters: true
+    enableFEConverters: false
 
     # Forge Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
@@ -583,11 +581,11 @@ compat:
     # The interval between ME Hatch/Bus interact ME network.
     # It may cause lag if the interval is too small.
     # Default: 2 sec
-    updateIntervals: 20
+    updateIntervals: 40
 
     # The energy consumption of ME Hatch/Bus.
     # Default: 4.0AE/t
-    meHatchEnergyUsage: 1.0
+    meHatchEnergyUsage: 4.0
 
   # Config options regarding GTCEu compatibility with minimap mods
   minimap:
@@ -643,7 +641,7 @@ compat:
     # Allowed values:
     # - VERTICAL
     # - HORIZONTAL
-    direction: HORIZONTAL
+    direction: VERTICAL
 
     # How horizontally far away from the anchor to place the buttons
     # Default: 20
@@ -684,7 +682,7 @@ dev:
 
   # Debug ore vein placement? (will print placed veins to server's debug.log)
   # Default: false (no placement printout in debug.log)
-  debugWorldgen: true
+  debugWorldgen: false
 
   # Generate ores in superflat worlds?
   # Default: false

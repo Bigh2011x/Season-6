@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = false
+	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -28,7 +28,7 @@
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 	#Set this to false to not generate the Quark Programmer Art resource pack
-	"Generate Programmer Art" = false
+	"Generate Programmer Art" = true
 
 	[general.chest_button_offsets]
 		"Player X" = 0
@@ -47,12 +47,12 @@
 	world = true
 	mobs = true
 	client = true
-	experimental = false
-	oddities = false
+	experimental = true
+	oddities = true
 
 [automation]
 	"Chains Connect Blocks" = true
-	Chute = false
+	Chute = true
 	Crafter = true
 	"Dispensers Place Blocks" = true
 	"Ender Watcher" = true
@@ -130,13 +130,13 @@
 	Rope = true
 	"Shear Vines" = true
 	Shingles = true
-	"Soul Sandstone" = false
+	"Soul Sandstone" = true
 	Stools = true
-	"Sturdy Stone" = false
+	"Sturdy Stone" = true
 	Thatch = true
 	"Variant Bookshelves" = true
-	"Variant Chests" = false
-	"Variant Furnaces" = false
+	"Variant Chests" = true
+	"Variant Furnaces" = true
 	"Variant Ladders" = true
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
@@ -147,53 +147,53 @@
 		"Light Level" = 15
 
 	[building.compressed_blocks]
-		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = false
+		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
 		#Allowed values: [0,)
 		"Charcoal Block Fuel Time" = 16000
 		#Allowed values: [0,)
 		"Blaze Lantern Fuel Time" = 24000
 		#Allowed values: [0,)
 		"Stick Block Fuel Time" = 900
-		"Enable Charcoal Block" = false
-		"Enable Sugar Cane Block" = false
-		"Enable Cactus Block" = false
-		"Enable Chorus Fruit Block" = false
-		"Enable Stick Block" = false
-		"Enable Apple Crate" = false
-		"Enable Golden Apple Crate" = false
-		"Enable Potato Crate" = false
-		"Enable Carrot Crate" = false
-		"Enable Golden Carrot Crate" = false
-		"Enable Beetroot Crate" = false
-		"Enable Cocoa Bean Sack" = false
-		"Enable Nether Wart Sack" = false
-		"Enable Gunpowder Sack" = false
-		"Enable Berry Sack" = false
-		"Enable Glow Berry Sack" = false
-		"Enable Blaze Lantern" = false
-		"Enable Bonded Leather" = false
-		"Enable Bonded Rabbit Hide" = false
+		"Enable Charcoal Block" = true
+		"Enable Sugar Cane Block" = true
+		"Enable Cactus Block" = true
+		"Enable Chorus Fruit Block" = true
+		"Enable Stick Block" = true
+		"Enable Apple Crate" = true
+		"Enable Golden Apple Crate" = true
+		"Enable Potato Crate" = true
+		"Enable Carrot Crate" = true
+		"Enable Golden Carrot Crate" = true
+		"Enable Beetroot Crate" = true
+		"Enable Cocoa Bean Sack" = true
+		"Enable Nether Wart Sack" = true
+		"Enable Gunpowder Sack" = true
+		"Enable Berry Sack" = true
+		"Enable Glow Berry Sack" = true
+		"Enable Blaze Lantern" = true
+		"Enable Bonded Leather" = true
+		"Enable Bonded Rabbit Hide" = true
 
 	[building.glass_item_frame]
-		"Glass Item Frames Update Maps" = false
+		"Glass Item Frames Update Maps" = true
 		#Set to true for faster map updates. Default is every 3s
 		"Glass Item Frames Update Maps Every Tick" = false
 		#The scale at which items render in the Glass Item Frame. To match the vanilla Item Frame size, set to 1.0
 		"Item Render Scale" = 1.5
 
 	[building.gold_bars]
-		"Generate In Nether Fortress" = false
+		"Generate In Nether Fortress" = true
 
 	[building.hollow_logs]
-		"Enable Auto Crawl" = false
+		"Enable Auto Crawl" = true
 
 	[building.industrial_palette]
-		"Enable Iron Plates" = false
-		"Enable Iron Ladder" = false
+		"Enable Iron Plates" = true
+		"Enable Iron Ladder" = true
 
 	[building.japanese_palette]
-		"Enable Paper Blocks" = false
-		"Enable Bamboo Mats" = false
+		"Enable Paper Blocks" = true
+		"Enable Bamboo Mats" = true
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
@@ -205,28 +205,28 @@
 
 	[building.more_brick_types]
 		#This also comes with a utility recipe for Red Nether Bricks
-		"Enable Blue Nether Bricks" = false
+		"Enable Blue Nether Bricks" = true
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
-		"Enable Sandstone Bricks" = false
+		"Enable Sandstone Bricks" = true
 		#This also includes Mossy Cobblestone Bricks
-		"Enable Cobblestone Bricks" = false
+		"Enable Cobblestone Bricks" = true
 		#Requires Cobblestone Bricks to be enabled
-		"Enable Blackstone Bricks" = false
+		"Enable Blackstone Bricks" = true
 		#Requires Cobblestone Bricks to be enabled
-		"Enable Dirt Bricks" = false
+		"Enable Dirt Bricks" = true
 		#Requires Cobblestone Bricks to be enabled
-		"Enable Netherrack Bricks" = false
+		"Enable Netherrack Bricks" = true
 
 	[building.rainbow_lamps]
 		"Light Level" = 15
 		#Whether Rainbow Lamps should be made from and themed on Corundum if that module is enabled.
-		"Use Corundum" = false
+		"Use Corundum" = true
 
 	[building.rope]
 		#Set to true to allow ropes to move Tile Entities even if Pistons Push TEs is disabled.
 		#Note that ropes will still use the same blacklist.
 		"Force Enable Move Tile Entities" = false
-		"Enable Dispenser Behavior" = false
+		"Enable Dispenser Behavior" = true
 		#This feature disables itself if any of the following mods are loaded:
 		# - supplementaries
 		#This is done to prevent content overlap.
@@ -244,7 +244,7 @@
 		"Ignore Anti Overlap" = false
 
 	[building.variant_bookshelves]
-		"Change Names" = false
+		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodster
 		# - woodworks
@@ -253,8 +253,8 @@
 		"Ignore Anti Overlap" = false
 
 	[building.variant_chests]
-		"Enable Reverting Wooden Chests" = false
-		"Replace Worldgen Chests" = false
+		"Enable Reverting Wooden Chests" = true
+		"Replace Worldgen Chests" = true
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = []
 		#This feature disables itself if any of the following mods are loaded:
@@ -264,7 +264,7 @@
 		"Ignore Anti Overlap" = false
 
 	[building.variant_ladders]
-		"Change Names" = false
+		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodster
 		# - woodworks
@@ -274,7 +274,7 @@
 
 	[building.vertical_slabs]
 		#Should Walls and Panes attempt to connect to the side of Vertical Slabs?
-		"Allow Side Connections" = false
+		"Allow Side Connections" = true
 
 	[building.more_stone_variants]
 		"Enable Bricks" = true
@@ -282,10 +282,10 @@
 		"Enable Pillar" = true
 
 [management]
-	"Automatic Tool Restock" = false
+	"Automatic Tool Restock" = true
 	"Easy Transfering" = true
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = false
+	"Hotbar Changer" = true
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
@@ -294,9 +294,9 @@
 		#Enchantments deemed important enough to have special priority when finding a replacement
 		"Important Enchantments" = ["minecraft:silk_touch", "minecraft:fortune", "minecraft:infinity", "minecraft:luck_of_the_sea", "minecraft:looting"]
 		#Enable replacing your tools with tools of the same type but not the same item
-		"Enable Loose Matching" = false
+		"Enable Loose Matching" = true
 		#Enable comparing enchantments to find a replacement
-		"Enable Enchant Matching" = false
+		"Enable Enchant Matching" = true
 		#Allow pulling items from one hotbar slot to another
 		"Check Hotbar" = false
 		"Unstackables Only" = false
@@ -309,49 +309,49 @@
 		"Ignore Anti Overlap" = false
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = false
+		"Enable Shift Lock" = true
 
 	[management.expanded_item_interactions]
-		"Enable Armor Interaction" = false
-		"Enable Shulker Box Interaction" = false
-		"Enable Lava Interaction" = false
-		"Allow Opening Shulker Boxes" = false
-		"Allow Rotating Bundles" = false
+		"Enable Armor Interaction" = true
+		"Enable Shulker Box Interaction" = true
+		"Enable Lava Interaction" = true
+		"Allow Opening Shulker Boxes" = true
+		"Allow Rotating Bundles" = true
 
 	[management.hotbar_changer]
 		"Animation Time" = 7.0
 
 	[management.inventory_sorting]
-		"Enable Player Inventory" = false
-		"Enable Player Inventory In Chests" = false
-		"Enable Chests" = false
+		"Enable Player Inventory" = true
+		"Enable Player Inventory In Chests" = true
+		"Enable Chests" = true
 		#Play a click when sorting inventories using keybindings
-		"Satisfying Click" = false
+		"Satisfying Click" = true
 
 	[management.item_sharing]
 		#In ticks.
 		#Allowed values: [0,)
 		Cooldown = 100
-		"Render Items In Chat" = false
+		"Render Items In Chat" = true
 
 	[management.quick_armor_swapping]
-		"Swap Off Hand" = false
+		"Swap Off Hand" = true
 
 [tools]
 	Abacus = true
-	"Ambient Discs" = false
-	"Ancient Tomes" = false
+	"Ambient Discs" = true
+	"Ancient Tomes" = true
 	"Beacon Redirection" = true
 	"Bottled Cloud" = true
-	"Color Runes" = false
-	"Endermosh Music Disc" = false
-	"Parrot Eggs" = false
-	"Pathfinder Maps" = false
+	"Color Runes" = true
+	"Endermosh Music Disc" = true
+	"Parrot Eggs" = true
+	"Pathfinder Maps" = true
 	Pickarang = true
 	"Seed Pouch" = true
-	"Skull Pikes" = false
+	"Skull Pikes" = true
 	"Slime In A Bucket" = true
-	"Torch Arrow" = false
+	"Torch Arrow" = true
 	Trowel = true
 
 	[tools.abacus]
@@ -448,7 +448,7 @@
 	[tools.pickarang]
 		"Enable Flamerang" = true
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
-		"Never Use Heart Of Diamond" = true
+		"Never Use Heart Of Diamond" = false
 
 		[tools.pickarang.pickarang]
 			#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
@@ -513,33 +513,33 @@
 [tweaks]
 	"Armed Armor Stands" = true
 	"Automatic Recipe Unlock" = true
-	"Better Elytra Rocket" = false
+	"Better Elytra Rocket" = true
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = true
 	"Coral On Cactus" = true
-	"Diamond Repair" = false
+	"Diamond Repair" = true
 	"Double Door Opening" = true
-	"Dragon Scales" = false
+	"Dragon Scales" = true
 	"Dyeable Item Frames" = true
-	Emotes = false
+	Emotes = true
 	"Enhanced Ladders" = true
-	"Glass Shard" = false
-	"Gold Tools Have Fortune" = false
-	"Grab Chickens" = false
+	"Glass Shard" = true
+	"Gold Tools Have Fortune" = true
+	"Grab Chickens" = true
 	"Hoe Harvesting" = true
 	"Horses Swim" = true
 	"Improved Sponges" = true
-	"Lock Rotation" = false
+	"Lock Rotation" = true
 	"Magma Keeps Concrete Powder" = true
 	"Map Washing" = true
 	"More Banner Layers" = true
 	"More Note Block Sounds" = true
-	"More Villagers" = false
+	"More Villagers" = true
 	"No Durability On Cosmetics" = true
 	"Pat The Dogs" = true
 	"Petals On Water" = true
-	"Pig Litters" = false
-	"Poison Potato Usage" = false
+	"Pig Litters" = true
+	"Poison Potato Usage" = true
 	"Reacharound Placing" = true
 	"Renewable Spore Blossoms" = true
 	"Replace Scaffolding" = true
@@ -547,12 +547,12 @@
 	"Shulker Packing" = true
 	"Simple Harvest" = true
 	"Slabs To Blocks" = true
-	"Slimes To Magma Cubes" = false
-	"Snow Golem Player Heads" = false
-	"Utility Recipes" = false
+	"Slimes To Magma Cubes" = true
+	"Snow Golem Player Heads" = true
+	"Utility Recipes" = true
 	"Vexes Die With Their Masters" = true
 	"Villagers Follow Emeralds" = true
-	"Zombie Villagers On Normal" = false
+	"Zombie Villagers On Normal" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -766,24 +766,24 @@
 		"Smelt Raw Ore Blocks" = true
 
 [world]
-	"Ancient Wood" = false
-	"Azalea Wood" = false
+	"Ancient Wood" = true
+	"Azalea Wood" = true
 	"Big Stone Clusters" = true
-	"Blossom Trees" = false
+	"Blossom Trees" = true
 	"Chorus Vegetation" = true
 	Corundum = true
-	"Fairy Rings" = false
+	"Fairy Rings" = true
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
-	"Monster Box" = false
+	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
-	"New Stone Types" = false
+	"New Stone Types" = true
 	"No More Lava Pockets" = true
 	Permafrost = true
 	"Spiral Spires" = true
 
 	[world.ancient_wood]
-		"Ancient Fruit Gives Exp" = false
+		"Ancient Fruit Gives Exp" = true
 		#Allowed values: [1,)
 		"Ancient Fruit Exp Value" = 10
 		#Set to a value other than 0 to enable Ancient City loot chest generation (8 recommended if you do)
@@ -810,7 +810,7 @@
 		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate"]
 
 		[world.big_stone_clusters.calcite]
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -838,10 +838,10 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.big_stone_clusters.calcite.biomes.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -869,10 +869,10 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.big_stone_clusters.limestone.biomes.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 		[world.big_stone_clusters.jasper]
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -900,10 +900,10 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.big_stone_clusters.jasper.biomes.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 		[world.big_stone_clusters.shale]
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 4
 			"Min Y Level" = 20
@@ -931,11 +931,11 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.big_stone_clusters.shale.biomes.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 		[world.big_stone_clusters.myalite]
-			"Generate In Air" = false
-			Enabled = false
+			"Generate In Air" = true
+			Enabled = true
 			#Allowed values: [0,)
 			Rarity = 100
 			"Min Y Level" = 58
@@ -958,7 +958,7 @@
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.big_stone_clusters.myalite.biomes.tags]
 					"Biome Tags" = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.big_stone_clusters.myalite.biomes.biomes]
@@ -966,7 +966,7 @@
 					"Is Blacklist" = false
 
 	[world.blossom_trees]
-		"Drop Leaf Particles" = false
+		"Drop Leaf Particles" = true
 
 		[world.blossom_trees.blue]
 			Rarity = 200
@@ -985,7 +985,7 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.blue.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 		[world.blossom_trees.lavender]
 			Rarity = 100
@@ -1004,7 +1004,7 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.lavender.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 		[world.blossom_trees.orange]
 			Rarity = 100
@@ -1023,7 +1023,7 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.orange.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 		[world.blossom_trees.yellow]
 			Rarity = 200
@@ -1042,7 +1042,7 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.yellow.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 		[world.blossom_trees.red]
 			Rarity = 30
@@ -1061,7 +1061,7 @@
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.blossom_trees.red.biome_config.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 	[world.chorus_vegetation]
 		Rarity = 150
@@ -1085,8 +1085,8 @@
 		"Double Crystal Chance" = 0.2
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
 		"Cave Crystal Growth Chance" = 5
-		"Crystals Craft Runes" = false
-		"Enable Collateral Movement" = false
+		"Crystals Craft Runes" = true
+		"Enable Collateral Movement" = true
 
 		[world.corundum.generation_settings]
 			#Allowed values: [0,)
@@ -1111,12 +1111,12 @@
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.corundum.generation_settings.biomes.tags]
 					"Biome Tags" = ["minecraft:is_ocean"]
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.corundum.generation_settings.biomes.biomes]
 					Biomes = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 	[world.fairy_rings]
 		"Forest Chance" = 0.00625
@@ -1149,7 +1149,7 @@
 		"Max Y" = 0
 		"Min Mob Count" = 5
 		"Max Mob Count" = 8
-		"Enable Extra Loot Table" = false
+		"Enable Extra Loot Table" = true
 		"Activation Range" = 2.5
 		#How many blocks to search vertically from a position before trying to place a block. Higher means you'll get more boxes in open spaces.
 		"Search Range" = 15
@@ -1165,18 +1165,18 @@
 		"Big Spike Chance" = 0.03
 		#Should a chunk have spikes, how many would the generator try to place
 		"Tries Per Chunk" = 4
-		"Big Spike Spawners" = false
+		"Big Spike Spawners" = true
 
 		[world.nether_obsidian_spikes.dimensions]
 			"Is Blacklist" = false
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Limestone" = false
-		"Enable Jasper" = false
-		"Enable Shale" = false
-		"Enable Myalite" = false
-		"Add New Stones To Mason Trades" = false
+		"Enable Limestone" = true
+		"Enable Jasper" = true
+		"Enable Shale" = true
+		"Enable Myalite" = true
+		"Add New Stones To Mason Trades" = true
 
 		[world.new_stone_types.limestone]
 
@@ -1315,7 +1315,7 @@
 				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 				[world.permafrost.generation_settings.biomes.tags]
 					"Biome Tags" = []
-					"Is Blacklist" = false
+					"Is Blacklist" = true
 
 				#Biome names this should spawn in. Must match both this and 'types' to spawn.
 				[world.permafrost.generation_settings.biomes.biomes]
@@ -1325,10 +1325,10 @@
 	[world.spiral_spires]
 		Rarity = 200
 		Radius = 15
-		"Enable Myalite Viaducts" = false
+		"Enable Myalite Viaducts" = true
 		#Allowed values: [2,1,024]
 		"Myalite Conduit Distance" = 24
-		"Renewable Myalite" = false
+		"Renewable Myalite" = true
 
 		[world.spiral_spires.dimensions]
 			"Is Blacklist" = false
@@ -1339,7 +1339,7 @@
 			#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
 			[world.spiral_spires.biomes.tags]
 				"Biome Tags" = []
-				"Is Blacklist" = false
+				"Is Blacklist" = true
 
 			#Biome names this should spawn in. Must match both this and 'types' to spawn.
 			[world.spiral_spires.biomes.biomes]
@@ -1347,13 +1347,13 @@
 				"Is Blacklist" = false
 
 [mobs]
-	Crabs = false
-	Forgotten = false
-	Foxhound = false
+	Crabs = true
+	Forgotten = true
+	Foxhound = true
 	Shiba = true
-	Stonelings = false
-	Toretoise = false
-	Wraith = false
+	Stonelings = true
+	Toretoise = true
+	Wraith = true
 
 	[mobs.crabs]
 		"Enable Brewing" = true
@@ -1552,16 +1552,16 @@
 					"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = false
-	"Back Button Keybind" = false
+	"Auto Walk Keybind" = true
+	"Back Button Keybind" = true
 	"Buckets Show Inhabitants" = true
-	Camera = false
+	Camera = true
 	"Chest Searching" = true
 	"Elytra Indicator" = true
 	"Greener Grass" = true
-	"Improved Tooltips" = false
+	"Improved Tooltips" = true
 	"Long Range Pick Block" = true
-	"Microcrafting Helper" = false
+	"Microcrafting Helper" = true
 	"Soul Candles" = true
 	"Usage Ticker" = true
 	"Uses For Curses" = true
@@ -1593,7 +1593,7 @@
 	[client.greener_grass]
 		"Affect Leaves" = true
 		"Affect Water" = false
-		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "valhelsia_structures:grass_block", "grassslabs:grass_carpet", "grassslabs:grass_slab", "grassslabs:grass_stairs"]
+		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "grassslabs:grass_carpet", "grassslabs:grass_slab", "grassslabs:grass_stairs", "valhelsia_structures:grass_block"]
 		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
 
 		[client.greener_grass.color_matrix]
@@ -1649,9 +1649,9 @@
 		"Bind Armor Stands With Player Heads" = true
 
 	[client.variant_animal_textures]
-		"Enable Cow" = false
-		"Enable Pig" = false
-		"Enable Chicken" = false
+		"Enable Cow" = true
+		"Enable Pig" = true
+		"Enable Chicken" = true
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
@@ -1821,22 +1821,22 @@
 		"Reroll Even If Not Out Of Stock" = false
 
 [oddities]
-	Backpack = false
-	Crate = false
-	Magnets = false
-	"Matrix Enchanting" = false
-	Pipes = false
-	"Tiny Potato" = false
-	"Totem Of Holding" = false
+	Backpack = true
+	Crate = true
+	Magnets = true
+	"Matrix Enchanting" = true
+	Pipes = true
+	"Tiny Potato" = true
+	"Totem Of Holding" = true
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
-		"Enable Ravager Hide" = false
-		"Items In Backpack Tick" = false
+		"Enable Ravager Hide" = true
+		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5
-		"Allow Armor Stand Unloading" = false
+		"Allow Armor Stand Unloading" = true
 
 	[oddities.crate]
 		"Max Items" = 640
@@ -1850,15 +1850,15 @@
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook", "minecraft:map"]
 		"Use Pre End Recipe" = false
 		#When true magnets will never push something that pistons cant push. Disable to have further control. This allows iron rods to break obsidian for example
-		"Use Piston Logic" = false
+		"Use Piston Logic" = true
 		#Allows magnets to push and pull entities in the 'affected_by_magnets' tag (edit it with datapack). Turning off can reduce lag
-		"Affect Entities" = false
+		"Affect Entities" = true
 		#Allows magnets to push and pull entities having magnetic armor. Requires 'magnetic_entities' config ON
-		"Affects Armor" = false
+		"Affects Armor" = true
 		#Determines how fast entities are pulled by magnets. Still follows the inverse square law
 		"Entities Pull Force" = 0.18000000715255737
 		#Stonecutters pulled by magnets will silk touch the blocks they cut.
-		"Stone Cutter Silk Touch" = false
+		"Stone Cutter Silk Touch" = true
 		#The maximum hardness of a block that a stonecutter pushed by magnets can cut through.
 		"Stone Cutter Max Hardness" = 3.0
 
@@ -1886,21 +1886,25 @@
 		#How much to multiply the frequency of pieces where incompatible pieces have been generated
 		"Incompatible Multiplier" = 0.0
 		#Set to false to disable the ability to create Enchanted Books
-		"Allow Books" = false
+		"Allow Books" = true
 		#Set this to true to allow treasure enchantments to be rolled as pieces
 		"Allow Treasures" = false
+		#Set this to true to allow undiscoverable enchantments to be rolled as pieces
+		"Allow Undiscoverable Enchantments" = false
 		#Any treasure enchantment IDs here will be able to appear in books in matrix enchanting
 		"Treasure Whitelist" = []
+		#Any undiscoverable enchantment IDs here will be able to appear in matrix enchanting
+		"Undiscoverable Whitelist" = []
 		#Set to false to disable the tooltip for items with pending enchantments
-		"Show Tooltip" = false
+		"Show Tooltip" = true
 		#By default, enchantment rarities are fuzzed a bit to feel better with the new system. Set this to false to override this behaviour.
-		"Normalize Rarity" = false
+		"Normalize Rarity" = true
 		#Matrix Enchanting can be done with water instead of air around the enchanting table. Set this to false to disable this behaviour.
-		"Allow Underwater Enchanting" = false
+		"Allow Underwater Enchanting" = true
 		#Matrix Enchanting can be done with short (<= 3px blocks) instead of air around the enchanting table. Set this to false to disable this behaviour.
-		"Allow Short Block Enchanting" = false
+		"Allow Short Block Enchanting" = true
 		#Candles with soul sand below them or below the bookshelves dampen enchantments instead of influence them.
-		"Soul Candles Invert" = false
+		"Soul Candles Invert" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
 		"Disallowed Enchantments" = []
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
@@ -1910,17 +1914,13 @@
 		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
 		"States To Influences" = []
 		#Set to false to disable the ability to influence enchantment outcomes with candles
-		"Allow Influencing" = false
+		"Allow Influencing" = true
 		#The max amount of candles that can influence a single enchantment
 		"Influence Max" = 4
 		#How much each candle influences an enchantment. This works as a multiplier to its weight
 		"Influence Power" = 0.125
 		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
-		"Automatically Convert" = false
-		#Set this to true to allow undiscoverable enchantments to be rolled as pieces
-		"Allow Undiscoverable Enchantments" = false
-		#Any undiscoverable enchantment IDs here will be able to appear in matrix enchanting
-		"Undiscoverable Whitelist" = []
+		"Automatically Convert" = true
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.
@@ -1928,10 +1928,10 @@
 		#Set to 0 if you don't want pipes to have a max amount of items
 		"Max Pipe Items" = 16
 		#When items eject or are absorbed by pipes, should they make sounds?
-		"Do Pipes Whoosh" = false
-		"Enable Encased Pipes" = false
-		"Render Pipe Items" = false
-		"Emit Vibrations" = false
+		"Do Pipes Whoosh" = true
+		"Enable Encased Pipes" = true
+		"Render Pipe Items" = true
+		"Emit Vibrations" = true
 
 	[oddities.tiny_potato]
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
@@ -1944,11 +1944,11 @@
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = false
+		"Dark Souls Mode" = true
 		#Totem will always spawn if the player killer is themselves.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
-		"Allow Anyone To Collect" = false
+		"Allow Anyone To Collect" = true
 

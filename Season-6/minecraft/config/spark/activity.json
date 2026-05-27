@@ -5,11 +5,37 @@
       "name": "Bigh2011x",
       "uniqueId": "4ad7ad70-dd98-470a-a438-bf61b02daec8"
     },
-    "time": 1779877840827,
+    "time": 1779910753675,
     "type": "Profiler (live)",
     "data": {
       "type": "url",
-      "value": "https://spark.lucko.me/98jbwTagBP"
+      "value": "https://spark.lucko.me/G4MilmsXRW"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Bigh2011x",
+      "uniqueId": "4ad7ad70-dd98-470a-a438-bf61b02daec8"
+    },
+    "time": 1779904559522,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/beqdEKtqx1"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Bigh2011x",
+      "uniqueId": "4ad7ad70-dd98-470a-a438-bf61b02daec8"
+    },
+    "time": 1779904559136,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/F5hTR1KUtB"
     }
   }
 ]

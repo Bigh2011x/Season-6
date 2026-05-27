@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = /home/bigh/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Monifactory/minecraft/saves/New World
-}
-

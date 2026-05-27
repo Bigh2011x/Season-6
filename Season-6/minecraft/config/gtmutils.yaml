@@ -1,9 +1,9 @@
 features:
   # Whether the Sterile Cleaning Maintenance Hatch is enabled.
-  sterileHatchEnabled: true
+  sterileHatchEnabled: false
 
   # Whether the 64A energy converters are enabled.
-  converters64aEnabled: false
+  converters64aEnabled: true
 
   # Whether the Omni-breaker is enabled.
   omnibreakerEnabled: true
@@ -30,16 +30,16 @@ features:
   coinsEnabled: false
 
   # Whether the custom MV tools are enabled.
-  customMVToolsEnabled: true
+  customMVToolsEnabled: false
 
   # Whether the custom HV tools are enabled.
-  customHVToolsEnabled: true
+  customHVToolsEnabled: false
 
   # Whether the custom EV tools are enabled.
-  customEVToolsEnabled: true
+  customEVToolsEnabled: false
 
   # Whether the custom IV tools are enabled.
-  customIVToolsEnabled: true
+  customIVToolsEnabled: false
 
   # Whether the custom LuV tools are enabled.
   customLuVToolsEnabled: false
@@ -48,7 +48,7 @@ features:
   customZPMToolsEnabled: false
 
   # Whether the Auto Turbo Chargers are enabled.
-  autoChargersEnabled: true
+  autoChargersEnabled: false
 
   # Whether the Expanded Pattern Buffer and Expanded Pattern Buffer Proxy are enabled. If AE2 is not loaded, this config will not load the machines regardless.
   expandedBuffersEnabled: true
@@ -61,4 +61,7 @@ features:
 
   # Whether the Tag Stocking Input Bus/Hatch are enabled. If AE2 is not loaded, this config will not load the machines regardless.
   tagStockingEnabled: true
+
+  # Whether the Infinite Spray Can should be enabled.
+  infiniteSprayCanEnabled: false
 

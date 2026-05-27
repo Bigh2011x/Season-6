@@ -2,9 +2,9 @@
   "client": {
     "disableColoredCableRecipesInJEI": true,
     "enableFacadesInJEI_comment": "Show facades in JEI ingredient list",
-    "enableFacadesInJEI": true,
+    "enableFacadesInJEI": false,
     "enableFacadeRecipesInJEI_comment": "Show facade recipes in JEI for supported blocks",
-    "enableFacadeRecipesInJEI": true,
+    "enableFacadeRecipesInJEI": false,
     "exposeInventoryToEmi_comment": "Expose the full network inventory to EMI, which might cause performance problems.",
     "exposeInventoryToEmi": false,
     "enableEffects": true,
@@ -18,33 +18,10 @@
     "showPlacementPreview": true,
     "notifyForFinishedCraftingJobs_comment": "Show toast when long-running crafting jobs finish.",
     "notifyForFinishedCraftingJobs": true,
-    "fancyPatternTooltips_comment": "Show fancy tooltips for encoded patterns.",
-    "fancyPatternTooltips": true,
     "clearGridOnClose_comment": "Automatically clear the crafting/encoding grid when closing the terminal",
     "clearGridOnClose": false,
     "terminalMargin_comment": "The vertical margin to apply when sizing terminals. Used to make room for centered item mod search bars",
-    "terminalMargin": 25,
-    "autoPauseTerminal_comment": "Pause the terminal exactly like when pressing shift, except done automatically",
-    "autoPauseTerminal": false
-  },
-  "widgetNumbers": {
-    "_comment": "Number button values in the level emitter config panel and the craft order amount picker",
-    "widgetNumberBase1_comment": "Value of the first button when not pressing shift or ctrl",
-    "widgetNumberBase1": 1,
-    "widgetNumberBase2_comment": "Value of the second button when not pressing shift or ctrl",
-    "widgetNumberBase2": 10,
-    "widgetNumberBase3_comment": "Value of the third button when not pressing shift or ctrl",
-    "widgetNumberBase3": 100,
-    "widgetNumberBase4_comment": "Value of the fourth button when not pressing shift or ctrl",
-    "widgetNumberBase4": 1000,
-    "widgetNumberAlt1_comment": "Value of the first button when pressing shift or ctrl",
-    "widgetNumberAlt1": 1,
-    "widgetNumberAlt2_comment": "Value of the second button when pressing shift or ctrl",
-    "widgetNumberAlt2": 16,
-    "widgetNumberAlt3_comment": "Value of the third button when pressing shift or ctrl",
-    "widgetNumberAlt3": 32,
-    "widgetNumberAlt4_comment": "Value of the fourth button when pressing shift or ctrl",
-    "widgetNumberAlt4": 64
+    "terminalMargin": 25
   },
   "terminals": {
     "terminalStyle": "small",
@@ -73,6 +50,6 @@
     "maxCellContentShown_comment": "The maximum number of content entries to show in the tooltip of storage cells, color applicators and matter cannons",
     "maxCellContentShown": 5,
     "enableGuideHotkey_comment": "Enables the \u0027hold key to show guide\u0027 functionality in tooltips",
-    "enableGuideHotkey": true
+    "enableGuideHotkey": false
   }
 }

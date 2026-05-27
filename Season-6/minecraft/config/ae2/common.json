@@ -7,8 +7,6 @@
     "tinyTntBlockDamage": true,
     "channels_comment": "Changes the channel capacity that cables provide in AE2.",
     "channels": "infinite",
-    "controllerLength_comment": "Maximum length for AE controllers",
-    "controllerLength": 11,
     "spatialAnchorEnableRandomTicks_comment": "Whether Spatial Anchors should force random chunk ticks and entity spawning.",
     "spatialAnchorEnableRandomTicks": true
   },
@@ -49,7 +47,7 @@
     "wirelessTerminal": 1600000,
     "chargedStaff": 8000,
     "entropyManipulator": 200000,
-    "portableCell": 20000,
+    "portableCell": 200000,
     "colorApplicator": 20000,
     "matterCannon": 200000
   },

@@ -2,15 +2,6 @@
   "framedblocks": {
     "framed_item_frame": true
   },
-  "enderchests": {
-    "hud": true
-  },
-  "monilabs": {
-    "color_info": true,
-    "sculk_vat_xp_info": true,
-    "omnic_synth_info": true,
-    "microverse_info": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -64,26 +55,11 @@
     "chiseled_bookshelf": true
   },
   "gtmutils": {
-    "me_expanded_pattern_buffer_proxy_info": true,
-    "me_expanded_pattern_buffer_info": true,
     "enlarged_me_stocking_bus_info": true,
     "pterb_info": true
   },
-  "jadeaddons.create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "goggles.detailed": false,
-    "placard": true
-  },
-  "endertanks": {
-    "hud.basic": true,
-    "hud": true,
-    "hud.status": true,
-    "hud.contents": true
+  "enigmaticgraves": {
+    "grave": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -110,9 +86,6 @@
     "parallel_info": true,
     "data_bank": true
   },
-  "fulleng": {
-    "storage_monitor": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -124,12 +97,6 @@
   "expatternprovider": {
     "jade_chamber": true,
     "jade_wireless": true
-  },
-  "telepastries": {
-    "bites": true
-  },
-  "functionalstorage": {
-    "armory": true
   },
   "balm": {
     "jade": true
@@ -155,36 +122,14 @@
     "auto_ender_crafter": true,
     "ultimate_table": true,
     "ultimate_auto_table": true,
-    "epic_table": true,
     "elite_table": true,
     "basic_table": true,
-    "epic_auto_table": true,
     "crafting_core": true,
     "advanced_auto_table": true,
     "compressor": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "hammerlib": {
-    "root": true
-  },
-  "jadeaddons.lootr": {
-    "info": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
   "supplementaries": {
     "hat_stand": true
-  },
-  "waystones": {
-    "waystone": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "cookingforblockheads": {
     "fridge": true,
@@ -193,5 +138,11 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "main": true,
+    "display.content": true,
+    "display.status": true
   }
 }

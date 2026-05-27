@@ -2,7 +2,7 @@
 #Settings for Singularities.
 [Singularities]
 	#Should the default recipe for the Ultimate Singularity be generated?
-	ultimateSingularityRecipe = false
+	ultimateSingularityRecipe = true
 	#The default amount of items required to create a Singularity.
 	#Range: > 1
 	defaultMaterialsRequired = 10000
@@ -30,25 +30,13 @@
 #Settings for general things.
 [General]
 	#Should the Handheld Crafting Table be enabled?
-	handheldWorkbench = false
+	handheldWorkbench = true
 
 #Settings for the Extended Crafting Tables.
 ["Table Crafting"]
-	#How many ticks the Basic Auto Table takes to craft
-	#Range: > 1
-	autoTableBasicCraftTime = 2
-	#How many ticks the Ultimate Auto Table takes to craft
-	#Range: > 1
-	autoTableUltimateCraftTime = 2
 	#How much FE the Auto Crafting Tables should hold. Higher tiers use double the previous tier.
 	#Range: > 0
 	autoTablePowerCapacity = 500000
-	#How many ticks the Elite Auto Table takes to craft
-	#Range: > 1
-	autoTableEliteCraftTime = 2
-	#How many ticks the Epic Auto Table takes to craft
-	#Range: > 1
-	autoTableEpicCraftTime = 2
 	#How much FE the Auto Crafting Tables should use when auto inserting items.
 	#Range: > 0
 	autoTableInsertPowerRate = 100
@@ -61,9 +49,6 @@
 	#How much FE the Auto Crafting Tables should use when crafting.
 	#Range: > 0
 	autoTablePowerRate = 500
-	#How many ticks the Advanced Auto Table takes to craft
-	#Range: > 1
-	autoTableAdvancedCraftTime = 2
 
 #Settings for the Quantum Compressor.
 ["Quantum Compression"]
@@ -89,13 +74,13 @@
 ["Flux Crafting"]
 	#How much FE/t the Flux Crafter should pull from each Flux Alternator when crafting by default.
 	#Range: > 0
-	defaultPowerRate = 800000000
+	defaultPowerRate = 400
 	#How much FE the Flux Alternator should hold.
 	#Range: > 0
-	powerCapacity = 2147483647
+	powerCapacity = 80000
 	#How much FE the Auto Flux Crafter should hold.
 	#Range: > 0
-	autoCrafterPowerCapacity = 200000000
+	autoCrafterPowerCapacity = 500000
 	#How much FE the Auto Flux Crafter should use when auto inserting items.
 	#Range: > 0
 	autoCrafterInsertPowerRate = 100
@@ -119,7 +104,7 @@
 	#Range: 0.0 ~ 1.0
 	alternatorEffectiveness = 0.01
 	#Should the Ender Crafter be enabled?
-	enabled = false
+	enabled = true
 	#Should the Auto Ender Crafter be enabled?
-	autoCrafterEnabled = false
+	autoCrafterEnabled = true
 

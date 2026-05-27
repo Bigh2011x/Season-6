@@ -1,0 +1,21 @@
+filename = 'gt_solar-1.20.1-0.2.1.jar'
+name = 'GregTech Solar Expansion'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gt_solar-1.20.1-0.2.1.jar'
+
+[download]
+hash = '6eb690024e2ded1310ff62c37be76a63339e7374'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7710909
+project-id = 1473018
+
+[[x-prismlauncher-dependencies]]
+addonId = '890405'
+type = 'REQUIRED'
