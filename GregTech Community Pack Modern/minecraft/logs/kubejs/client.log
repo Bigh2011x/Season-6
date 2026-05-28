@@ -1,0 +1,20 @@
+[14:49:15] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[14:49:15] [INIT] Loaded plugins:
+[14:49:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:49:15] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:49:15] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[14:49:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[14:49:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[14:49:15] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:49:15] [INIT] - electrolyte.greate.compat.kubejs.KubeJSGreatePlugin
+[14:49:15] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[14:49:15] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[14:49:15] [INIT] - igentuman.nc.compat.kubejs.NuclearCraftKubeJSPlugin
+[14:49:15] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[14:49:15] [INIT] - argent_matter.gcyr.integration.kjs.GCYRKubeJSPlugin
+[14:49:15] [INIT] - com.rubenverg.moldraw.kubejs.MolDrawKJSPlugin
+[14:49:15] [ERROR] ! jei/hidden_items.js#1: ReferenceError: "JEIEvents" is not defined.
+[14:49:15] [ERROR] ! jei/hidden_categories.js#1: ReferenceError: "JEIEvents" is not defined.
+[14:49:15] [INFO] Loaded script client_scripts:tooltips.js in 0.0 s
+[14:49:15] [INFO] Loaded 1/3 KubeJS client scripts in 0.02 s with 0 errors and 0 warnings
+[14:49:23] [INFO] Client resource reload complete!
