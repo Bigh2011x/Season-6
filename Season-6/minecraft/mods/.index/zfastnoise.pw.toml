@@ -1,0 +1,25 @@
+filename = 'zfastnoise-1.0.11+1.20+forge.jar'
+name = 'Fast Noise'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.11+1.20+forge'
+
+[download]
+hash = 'fa9d5792765b625764a72a3d960612fda3fbec99dbc5369ca26dc25c2cec91a4538751f38ea748737f4075e560b3b72273828c678912691e3677c143d83c14e3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OnlVIpq5/versions/Fl47JiCL/zfastnoise-1.0.11%2B1.20%2Bforge.jar'
+
+[update.modrinth]
+mod-id = 'OnlVIpq5'
+version = 'Fl47JiCL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hasdd01q'
+type = 'INCOMPATIBLE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'KOHu7RCS'
+type = 'INCOMPATIBLE'

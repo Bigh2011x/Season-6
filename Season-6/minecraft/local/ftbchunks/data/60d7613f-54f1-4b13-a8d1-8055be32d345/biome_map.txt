@@ -1,0 +1,15 @@
+#556 minecraft:beach
+#5CC wythers:coastal_mangroves
+#3DE minecraft:deep_ocean
+#168 wythers:gravelly_beach
+#41A wythers:humid_tropical_grassland
+#79A minecraft:lukewarm_ocean
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#520 wythers:sand_dunes
+#67B minecraft:savanna
+#00A wythers:savanna_badlands
+#074 wythers:subtropical_forest_edge
+#1B6 wythers:subtropical_grassland
+#6B8 wythers:tropical_beach
+#685 wythers:wooded_savanna

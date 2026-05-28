@@ -5,22 +5,6 @@
     "name": "forge",
     "version": "fmlloader-1.20.1-47.4.10.jar"
   },
-  "Ad-Astra-Giselle-Addon-forge-1.20.1-6.20.jar": {
-    "jarName": "Ad-Astra-Giselle-Addon-forge-1.20.1-6.20.jar",
-    "modId": "ad_astra_giselle_addon",
-    "name": "Ad Astra: Giselle Addon",
-    "version": "6.20",
-    "curseForgeHash": 2593954164,
-    "modrinthHash": "ce565f1dca2cb257b5ff089fc59755c714762424"
-  },
-  "ad_astra-forge-1.20.1-1.15.20.jar": {
-    "jarName": "ad_astra-forge-1.20.1-1.15.20.jar",
-    "modId": "ad_astra",
-    "name": "Ad Astra",
-    "version": "1.15.20",
-    "curseForgeHash": 2713479490,
-    "modrinthHash": "537ac3e358a97efd7b03648a9bfd7b11f1ae7ff7"
-  },
   "Adorn-5.0.1+1.20.1-forge.jar": {
     "jarName": "Adorn-5.0.1+1.20.1-forge.jar",
     "modId": "adorn",
@@ -133,14 +117,6 @@
     "curseForgeHash": 3225702455,
     "modrinthHash": "be5951d1f64cbac1f1d5a60e415f6e7bd90551d4"
   },
-  "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar": {
-    "jarName": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
-    "modId": "biomesoplenty",
-    "name": "Biomes O\u0027 Plenty",
-    "version": "19.0.0.96",
-    "curseForgeHash": 3353513849,
-    "modrinthHash": "f6ffd20b9825c4a69d93af7caed701a60bf804b5"
-  },
   "Bookshelf-Forge-1.20.1-20.2.15.jar": {
     "jarName": "Bookshelf-Forge-1.20.1-20.2.15.jar",
     "modId": "bookshelf",
@@ -164,14 +140,6 @@
     "version": "1.0.8",
     "curseForgeHash": 71960834,
     "modrinthHash": "d06a806e8ca84a9e96a69c32da4b43226a51e0c9"
-  },
-  "c2meF-0.2.0+alpha.12-all.jar": {
-    "jarName": "c2meF-0.2.0+alpha.12-all.jar",
-    "modId": "c2me",
-    "name": "Concurrent Chunk Management Engine (Forge)",
-    "version": "0.2.0+alpha.12",
-    "curseForgeHash": 4102459638,
-    "modrinthHash": "ad44f615a4b15afd1d6a4d907ccab1c3855451a1"
   },
   "carryon-forge-1.20.1-2.1.2.7.jar": {
     "jarName": "carryon-forge-1.20.1-2.1.2.7.jar",
@@ -325,6 +293,22 @@
     "curseForgeHash": 3470013451,
     "modrinthHash": "5307739c4e9374ef4bb91cf139ba098b72abbbf8"
   },
+  "createdeco-2.0.3-1.20.1-forge.jar": {
+    "jarName": "createdeco-2.0.3-1.20.1-forge.jar",
+    "modId": "createdeco",
+    "name": "Create Deco",
+    "version": "2.0.3-1.20.1-forge",
+    "curseForgeHash": 1368200461,
+    "modrinthHash": "54c8ad5686b846310bca9e69982a455e668dede3"
+  },
+  "cristellib-1.1.6-forge.jar": {
+    "jarName": "cristellib-1.1.6-forge.jar",
+    "modId": "cristellib",
+    "name": "Cristel Lib",
+    "version": "1.1.6",
+    "curseForgeHash": 3580663282,
+    "modrinthHash": "524ecf0f93f28be2f5db21d87dd81bdbc1a450e1"
+  },
   "Cucumber-1.20.1-7.0.16.jar": {
     "jarName": "Cucumber-1.20.1-7.0.16.jar",
     "modId": "cucumber",
@@ -373,6 +357,14 @@
     "curseForgeHash": 847566940,
     "modrinthHash": "3a715b0c8e9244a0d6aace3e3d2f863a62ddc3bc"
   },
+  "EnderIO-1.20.1-6.2.18-beta-all.jar": {
+    "jarName": "EnderIO-1.20.1-6.2.18-beta-all.jar",
+    "modId": "enderio",
+    "name": "Ender IO",
+    "version": "6.2.18-beta",
+    "curseForgeHash": 643940021,
+    "modrinthHash": "33587f98f2d96507de0e9d2f57f5ab35328ace7d"
+  },
   "EnderStorage-1.20.1-2.11.0.188-universal.jar": {
     "jarName": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
     "modId": "enderstorage",
@@ -388,6 +380,14 @@
     "version": "1.8.0",
     "curseForgeHash": 1485966098,
     "modrinthHash": "6b673125e3da20eda16c66991d2c0d2e4a824d09"
+  },
+  "expanded_ecosphere-3.2.4-forge.jar": {
+    "jarName": "expanded_ecosphere-3.2.4-forge.jar",
+    "modId": "expanded_ecosphere",
+    "name": "Expanded Ecosphere",
+    "version": "3.2.4",
+    "curseForgeHash": 2071459130,
+    "modrinthHash": "fd8bd4927b3e69a429790b7b2f887110fde93e96"
   },
   "ExtendedAE-1.20-1.4.15-forge.jar": {
     "jarName": "ExtendedAE-1.20-1.4.15-forge.jar",
@@ -549,6 +549,14 @@
     "curseForgeHash": 2646303899,
     "modrinthHash": "4b100de40338247a3fbf4d1fd1846257c5338189"
   },
+  "gcyr-1.20.1-0.2.8.jar": {
+    "jarName": "gcyr-1.20.1-0.2.8.jar",
+    "modId": "gcyr",
+    "name": "Gregicality Rocketry",
+    "version": "0.2.8",
+    "curseForgeHash": 1466980270,
+    "modrinthHash": "d2164e5cfdaaed6f3e7112bd8ca2346b49c19084"
+  },
   "Geophilic v3.5.mod.jar": {
     "jarName": "Geophilic v3.5.mod.jar",
     "modId": "geophilic",
@@ -621,14 +629,6 @@
     "curseForgeHash": 4045916259,
     "modrinthHash": "9666c36340ef77f8ef0b5e4bb9e019bebe4f9650"
   },
-  "gtmqol-0.0.7.1-st.jar": {
-    "jarName": "gtmqol-0.0.7.1-st.jar",
-    "modId": "gtmqol",
-    "name": "GregTech Modern Quality of Life (StarT Edition)",
-    "version": "0.0.7.1-st",
-    "curseForgeHash": 187121637,
-    "modrinthHash": "c14e08e2f69f7bb1f3ab6908b007069ec6bbab80"
-  },
   "gtmutils-2.9.1.jar": {
     "jarName": "gtmutils-2.9.1.jar",
     "modId": "gtmutils",
@@ -636,14 +636,6 @@
     "version": "2.9.1",
     "curseForgeHash": 2586396771,
     "modrinthHash": "8bd6f2f73b46127a266e6851cf59e8d633934363"
-  },
-  "gtstoragedrawers-1.20.1-1.0.2.jar": {
-    "jarName": "gtstoragedrawers-1.20.1-1.0.2.jar",
-    "modId": "gtstoragedrawers",
-    "name": "GregTech Storage Drawers",
-    "version": "1.0.2",
-    "curseForgeHash": 275603069,
-    "modrinthHash": "f0fd877857f5d1e2cae6421c1b63a085cbe2f452"
   },
   "guideme-20.1.14.jar": {
     "jarName": "guideme-20.1.14.jar",
@@ -708,6 +700,14 @@
     "version": "1.10.20",
     "curseForgeHash": 2510845465,
     "modrinthHash": "979e74fa10b24a7d7c4d9aeb5824b80f4f9235cf"
+  },
+  "IronJetpacks-1.20.1-7.0.9.jar": {
+    "jarName": "IronJetpacks-1.20.1-7.0.9.jar",
+    "modId": "ironjetpacks",
+    "name": "Iron Jetpacks",
+    "version": "7.0.9",
+    "curseForgeHash": 633801556,
+    "modrinthHash": "b1fdcfdd48ac4519ea95cb3b8dbaacc5cf819b20"
   },
   "item-filters-forge-2001.1.0-build.59.jar": {
     "jarName": "item-filters-forge-2001.1.0-build.59.jar",
@@ -834,14 +834,6 @@
     "curseForgeHash": 1899867669,
     "modrinthHash": "b7751ee5cc55e6a56bc4b7c1b79bb6e63727e8aa"
   },
-  "MoogsBountifulStructures-1.20-1.0.3.jar": {
-    "jarName": "MoogsBountifulStructures-1.20-1.0.3.jar",
-    "modId": "mbs",
-    "name": "MoogsBountifulStructures",
-    "version": "1.0.3",
-    "curseForgeHash": 735545258,
-    "modrinthHash": "1f209e986f444cf6da5d8b14cecba872204b752d"
-  },
   "MoogsEndStructures-1.20-2.0.3.jar": {
     "jarName": "MoogsEndStructures-1.20-2.0.3.jar",
     "modId": "mes",
@@ -921,6 +913,14 @@
     "version": "4.4.9+1.20.1",
     "curseForgeHash": 2424392975,
     "modrinthHash": "5d786730c1aee28751d480d497ce893cdff0bb87"
+  },
+  "NuclearCraft-1.20.1-1.2.23.jar": {
+    "jarName": "NuclearCraft-1.20.1-1.2.23.jar",
+    "modId": "nuclearcraft",
+    "name": "Nuclearcraft Neoteric",
+    "version": "1.2.23",
+    "curseForgeHash": 2483024713,
+    "modrinthHash": "948e838d94177bb83b68f2af52a78f1d9b515f81"
   },
   "Nullscape_1.20.x_v1.2.8.jar": {
     "jarName": "Nullscape_1.20.x_v1.2.8.jar",
@@ -1146,14 +1146,6 @@
     "curseForgeHash": 516158751,
     "modrinthHash": "5874f81827d90580205ff27a3fd24ea93c12a79a"
   },
-  "StorageDrawers-forge-1.20.1-12.14.3.jar": {
-    "jarName": "StorageDrawers-forge-1.20.1-12.14.3.jar",
-    "modId": "storagedrawers",
-    "name": "Storage Drawers",
-    "version": "12.14.3",
-    "curseForgeHash": 1405447780,
-    "modrinthHash": "afca74c6e18883632e74e15a549004bfca245a90"
-  },
   "supplementaries-1.20-3.1.43-forge.jar": {
     "jarName": "supplementaries-1.20-3.1.43-forge.jar",
     "modId": "supplementaries",
@@ -1161,14 +1153,6 @@
     "version": "1.20-3.1.43",
     "curseForgeHash": 1988549846,
     "modrinthHash": "326d65a29981de28016e3828370d68a8f63e1798"
-  },
-  "tectonic-3.0.17-forge-1.20.1.jar": {
-    "jarName": "tectonic-3.0.17-forge-1.20.1.jar",
-    "modId": "tectonic",
-    "name": "Tectonic",
-    "version": "3.0.17",
-    "curseForgeHash": 2168110555,
-    "modrinthHash": "07bfe13bc1bd75a6277f3d62bf92a549b33067a9"
   },
   "TerraBlender-forge-1.20.1-3.0.1.10.jar": {
     "jarName": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
@@ -1321,5 +1305,13 @@
     "version": "1.0-31",
     "curseForgeHash": 2553435270,
     "modrinthHash": "8c4a8ef0444b53ff408d5b89126285031081d92f"
+  },
+  "zfastnoise-1.0.11+1.20+forge.jar": {
+    "jarName": "zfastnoise-1.0.11+1.20+forge.jar",
+    "modId": "zfastnoise",
+    "name": "Fast Noise Mod",
+    "version": "1.0.11",
+    "curseForgeHash": 1967169450,
+    "modrinthHash": "ae965714803aad1b5b03739f0cb27f88d0a561db"
   }
 }

@@ -1,0 +1,13 @@
+#05B minecraft:bamboo_jungle
+#32F wythers:bamboo_jungle_canyon
+#211 wythers:gravelly_river
+#41A wythers:humid_tropical_grassland
+#4B0 minecraft:jungle
+#53A wythers:jungle_canyon
+#13A wythers:jungle_river
+#782 ad_astra:lunar_wastelands
+#3AF minecraft:sparse_jungle
+#5C8 wythers:tropical_forest
+#0FF wythers:tropical_forest_canyon
+#0D5 wythers:tropical_forest_river
+#4DC wythers:tropical_rainforest

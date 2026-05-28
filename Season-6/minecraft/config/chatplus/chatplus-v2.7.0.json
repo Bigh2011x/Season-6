@@ -107,7 +107,7 @@
         "countColor": -1,
         "scale": 0.4
     },
-    "movableChatEnabled": true,
+    "movableChatEnabled": false,
     "movableChatShowEnabledOnScreen": true,
     "movableChatKey": {
         "key": "key.keyboard.right.control",
@@ -120,7 +120,7 @@
     "inputBoxSettings": {
         "startX": 2,
         "startY": -10,
-        "width": 461,
+        "width": 462,
         "normalizeInputWhileTyping": false,
         "maxInputBoxInputLength": 1280,
         "showInputBoxInputLength": true,
@@ -268,9 +268,9 @@
             },
             "renderer": {
                 "x": 0,
-                "y": -29,
-                "width": 216,
-                "height": 198
+                "y": -28,
+                "width": 236,
+                "height": 189
             },
             "tabSettings": {
                 "selectedTabIndex": 0,

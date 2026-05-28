@@ -1,0 +1,11 @@
+#07A wythers:autumnal_birch_forest
+#3D6 minecraft:cold_ocean
+#57C wythers:cold_stony_shore
+#4F9 minecraft:dark_forest
+#053 wythers:forbidden_forest
+#211 wythers:gravelly_river
+#6E9 wythers:larch_taiga
+#782 ad_astra:lunar_wastelands
+#73A minecraft:old_growth_pine_taiga
+#60C minecraft:old_growth_spruce_taiga
+#169 minecraft:taiga
