@@ -1,0 +1,7 @@
+/locate biome minecraft:plains
+/tp @s 164 232 -382
+/locate biome wythers:highland_plains
+/tp @s -1984 94 670
+/execute in northstar:moon run tp @s ~ ~ ~
+/locate biome wythers:ancient_oak_swamp
+/tp @s -3885 106 2936

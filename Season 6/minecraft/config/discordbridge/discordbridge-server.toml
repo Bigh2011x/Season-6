@@ -1,0 +1,153 @@
+#=== Discord Bridge v1.1.0 - Configuration ===
+#All config files are stored in config/discordbridge/
+[bot]
+	#Discord bot token (DO NOT SHARE!)
+	botToken = ""
+	#Display name of THIS server in Discord messages (e.g., Survie, Creatif, Mini-Jeux)
+	serverName = "Serveur"
+
+[channels]
+	#Enable the chat channel relay (set to false to disable all chat relay even if ID is set)
+	enableChatChannel = true
+	#Discord channel ID for game chat relay
+	chatChannelId = ""
+	#Enable the console channel (set to false to disable start/stop/ban notifications)
+	enableConsoleChannel = true
+	#Discord channel ID for system events (start/stop, bans)
+	consoleChannelId = ""
+
+[features]
+	#Relay Minecraft chat to/from Discord
+	enableChatRelay = true
+	#Send join/leave messages to Discord
+	enableJoinLeave = true
+	#Send death messages to Discord
+	enableDeathMessages = true
+	#Send server start/stop messages to Discord
+	enableServerStatus = true
+	#Enable whitelist synchronization
+	enableWhitelist = false
+
+	[messages.minecraft_to_discord]
+		#Chat format. Variables: {server}, {player}, {message}
+		chat = "**[{server}]** {player} : {message}"
+		#Join format. Variables: {server}, {player}
+		join = "**{player}** a rejoint **{server}**"
+		#Leave format. Variables: {server}, {player}
+		leave = "**{player}** a quitte **{server}**"
+		#Death format. Variables: {server}, {player}, {death_message}
+		death = "{death_message} sur **{server}**"
+		#Server start message. Variables: {server}
+		serverStart = "Le serveur **{server}** est demarre !"
+		#Server stop message. Variables: {server}
+		serverStop = "Le serveur **{server}** s'est arrete."
+
+		[messages.messages.discord_to_minecraft]
+			#Discord to Minecraft format. Variables: {username}, {role}, {message}
+			discordToMc = "§9[Discord] §f{username}§7 [{role}] : §f{message}"
+
+		[messages.messages.verification]
+			#Enable Discord verification before allowing connection
+			enableVerification = false
+			#Kick message for unverified players. Variables: {discord_channel}
+			kickMessage = "§cAcces refuse. §fVerifiez-vous sur Discord dans le salon {discord_channel} !"
+			#Discord channel ID where /verify must be used
+			verifyChannelId = ""
+			#Remove old global Discord commands at startup (SDLink cleanup)
+			cleanupOldCommands = true
+			#Path to verified players JSON file (used when database is disabled)
+			verifiedPlayersPath = "config/discordbridge/verified-players.json"
+			#Verification cache TTL in seconds (reduces DB queries)
+			# Default: 5
+			# Range: 1 ~ 60
+			cacheSeconds = 5
+			#Allow players to re-verify with a different MC username (overwrites old entry)
+			allowReVerification = true
+
+		[messages.messages.bans]
+			#Enable ban synchronization between Discord and Minecraft
+			enableBanSync = true
+			#Path to banned players JSON file (used when database is disabled)
+			bannedPlayersPath = "config/discordbridge/banned-players.json"
+			#Ban kick message. Variables: {reason}
+			kickMessage = "§cVous avez ete banni. Raison: {reason}"
+			#Interval (minutes) to auto-cleanup expired temp bans (0 = disabled)
+			# Default: 10
+			# Range: 0 ~ 1440
+			cleanupIntervalMinutes = 10
+
+		[messages.messages.staff]
+			#Enable staff management system
+			enableStaffSystem = true
+			#Path to staff players JSON file (used when database is disabled)
+			staffPlayersPath = "config/discordbridge/staff-players.json"
+			#Auto-integrate with LuckPerms (add/remove groups)
+			enableLuckPermsIntegration = false
+
+		[messages.messages.sessions]
+			#Enable duplicate login prevention across servers
+			enableSessionCheck = true
+			#Session timeout in minutes (stale sessions are cleaned up)
+			# Default: 5
+			# Range: 1 ~ 60
+			timeoutMinutes = 5
+			#Cache refresh interval in seconds for session data
+			# Default: 15
+			# Range: 5 ~ 120
+			cacheRefreshSeconds = 15
+			#Kick message for duplicate sessions. Variables: {server}
+			kickMessage = "§cVous etes deja connecte sur le serveur {server}. Deconnectez-vous d'abord."
+
+		[messages.messages.database]
+			#Use MySQL/MariaDB with HikariCP connection pool (RECOMMENDED for multi-server)
+			#When disabled, JSON files are used for storage
+			enableDatabase = false
+			#MySQL server address (e.g., 192.168.1.1 or localhost)
+			dbHost = "localhost"
+			#MySQL port (default: 3306)
+			dbPort = 3306
+			#Database name
+			dbName = "discordbridge"
+			#MySQL username (DO NOT SHARE!)
+			dbUser = "root"
+			#MySQL password (DO NOT SHARE!)
+			dbPassword = "password"
+			#HikariCP maximum pool size (connections)
+			#Recommended: 5-10 for single server, 3-5 for multiple servers sharing same DB
+			# Default: 5
+			# Range: 2 ~ 20
+			poolSize = 5
+			#Connection timeout in milliseconds
+			# Default: 5000
+			# Range: 1000 ~ 30000
+			connectionTimeoutMs = 5000
+			#Idle connection timeout in milliseconds (0 = never expire)
+			# Default: 300000
+			# Range: 0 ~ 600000
+			idleTimeoutMs = 300000
+			#Maximum lifetime of a connection in milliseconds
+			# Default: 1800000
+			# Range: 60000 ~ 3600000
+			maxLifetimeMs = 1800000
+
+		[messages.messages.bans_discord]
+			#When banning a player, also ban their Discord account from the Discord server
+			#Requires the bot to have BAN_MEMBERS permission on Discord
+			#Uses the verified Discord ID to find the user
+			enableDiscordGuildBan = false
+
+		[messages.messages.language]
+			#Mod language for all messages: 'fr' (French) or 'en' (English)
+			language = "fr"
+
+		[messages.messages.advanced]
+			#Thread pool size for async DB operations
+			# Default: 2
+			# Range: 1 ~ 8
+			asyncThreadPoolSize = 2
+			#Thread pool size for Discord command processing
+			# Default: 4
+			# Range: 2 ~ 16
+			discordThreadPoolSize = 4
+			#Enable debug logging (verbose output)
+			debugMode = false

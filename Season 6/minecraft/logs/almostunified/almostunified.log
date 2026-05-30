@@ -1,0 +1,24 @@
+[13:35:10.111] [INFO]: Loading config 'startup.json'.
+[13:35:16.256] [INFO]: Loaded plugins: almostunified:common, almostunified:neoforge, integrateddynamicscompat:main
+[13:35:36.736] [WARN]: Reload detected. Reconstructing runtime.
+[13:35:36.737] [INFO]: Loading config 'debug.json'.
+[13:35:36.739] [INFO]: Loading config 'placeholders.json'.
+[13:35:36.741] [INFO]: Loading config 'tags.json'.
+[13:35:36.767] [INFO]: [AutoHiding] Hiding 8/10 items for tag '#c:ores/iron' -> [northstar:moon_iron_ore, northstar:venus_iron_ore, northstar:mars_deep_iron_ore, northstar:moon_deep_iron_ore, northstar:mars_iron_ore, northstar:mercury_deep_iron_ore, northstar:venus_deep_iron_ore, northstar:mercury_iron_ore]
+[13:35:36.767] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/steel' -> [createbigcannons:steel_ingot]
+[13:35:36.767] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/steel' -> [createbigcannons:steel_scrap]
+[13:35:36.767] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/bronze' -> [createbigcannons:bronze_scrap]
+[13:35:36.767] [INFO]: [AutoHiding] Hiding 4/6 items for tag '#c:ores/lapis' -> [northstar:mercury_lapis_ore, northstar:moon_lapis_ore, northstar:mercury_deep_lapis_ore, northstar:moon_deep_lapis_ore]
+[13:35:36.767] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/obsidian' -> [mekanism:dust_obsidian]
+[13:35:36.767] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/bronze' -> [createbigcannons:bronze_ingot, silentgear:bronze_ingot]
+[13:35:36.768] [INFO]: [AutoHiding] Hiding 8/10 items for tag '#c:ores/zinc' -> [northstar:moon_zinc_ore, northstar:mercury_zinc_ore, northstar:mars_deep_zinc_ore, northstar:mercury_deep_zinc_ore, northstar:moon_deep_zinc_ore, northstar:mars_zinc_ore, northstar:venus_deep_zinc_ore, northstar:venus_zinc_ore]
+[13:35:36.768] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/diamond' -> [createaddition:diamond_grit]
+[13:35:36.768] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/steel' -> [createbigcannons:steel_block]
+[13:35:36.768] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/bronze' -> [createbigcannons:bronze_block]
+[13:35:36.768] [INFO]: [AutoHiding] Hiding 8/10 items for tag '#c:ores/copper' -> [northstar:moon_copper_ore, northstar:mercury_deep_copper_ore, northstar:mars_copper_ore, northstar:venus_copper_ore, northstar:mercury_copper_ore, northstar:venus_deep_copper_ore, northstar:mars_deep_copper_ore, northstar:moon_deep_copper_ore]
+[13:35:36.768] [INFO]: [AutoHiding] Hiding 8/11 items for tag '#c:ores/gold' -> [northstar:mars_deep_gold_ore, northstar:mars_gold_ore, northstar:moon_deep_gold_ore, northstar:mercury_deep_gold_ore, northstar:venus_deep_gold_ore, northstar:mercury_gold_ore, northstar:moon_gold_ore, northstar:venus_gold_ore]
+[13:35:36.768] [INFO]: [AutoHiding] Hiding 8/10 items for tag '#c:ores/diamond' -> [northstar:mercury_deep_diamond_ore, northstar:venus_deep_diamond_ore, northstar:mars_diamond_ore, northstar:moon_diamond_ore, northstar:mercury_diamond_ore, northstar:moon_deep_diamond_ore, northstar:venus_diamond_ore, northstar:mars_deep_diamond_ore]
+[13:35:36.957] [INFO]: Loading config 'duplicates.json'.
+[13:35:36.958] [INFO]: Recipe count: 16246
+[13:35:36.991] [INFO]: 14549 out of 16246 recipes were loaded for unification.
+[13:35:37.156] [INFO]: Recipe count afterwards: 16160 (done in 197.4 ms)

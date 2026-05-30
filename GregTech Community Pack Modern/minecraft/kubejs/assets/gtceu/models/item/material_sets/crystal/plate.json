@@ -1,8 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "gtceu:item/material_sets/crystal/plate",
-        "layer1": "gtceu:item/material_sets/crystal/plate_secondary",
-        "layer2": "gtceu:item/material_sets/crystal/plate_overlay"
-    }
-}

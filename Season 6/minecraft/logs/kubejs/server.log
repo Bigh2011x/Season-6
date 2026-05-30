@@ -1,0 +1,11 @@
+[11:11:10] [INIT] KubeJS 2101.7.2-build.363; MC 2101 NeoForge
+[11:11:10] [INIT] Loaded plugins:
+[11:11:10] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[11:11:10] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[11:11:10] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[11:11:10] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[11:11:10] [INIT] - com.gregtechceu.gtceu.integration.kjs.GTKubeJSPlugin
+[11:11:10] [INIT] - com.lowdragmc.lowdraglib2.integration.kjs.LDLibKubeJSPlugin
+[11:11:10] [INFO] server_scripts:main.js#2: Hello, World! (Loaded server example script)
+[11:11:10] [INFO] Loaded script server_scripts:main.js in 0.001 s
+[11:11:10] [INFO] Loaded 1/1 KubeJS server scripts in 0.051 s with 0 errors and 0 warnings

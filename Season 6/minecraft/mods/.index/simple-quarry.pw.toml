@@ -1,0 +1,21 @@
+filename = 'SimpleQuarry-1.21-21.0.3.jar'
+name = 'Simple Quarry'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[1.21] Simple Quarry - 21.0.3'
+
+[download]
+hash = 'b97f27c871d9d0a39e19c879548882a081bcaed0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5603975
+project-id = 247393
+
+[[x-prismlauncher-dependencies]]
+addonId = '247401'
+type = 'REQUIRED'

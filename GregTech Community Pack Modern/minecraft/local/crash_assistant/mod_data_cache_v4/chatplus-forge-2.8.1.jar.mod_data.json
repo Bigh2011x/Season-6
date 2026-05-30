@@ -1,1 +1,0 @@
-{"jarName":"chatplus-forge-2.8.1.jar","modId":"chatplus","name":"ChatPlus","version":"2.8.1","mixinConfigs":["chatplus-common.mixins.json","chatplus.mixins.json"],"jarJarMods":[{"jarName":"vosk-0.3.45.jar","mixinConfigs":[],"jarJarMods":[],"pathFromJarJar":"/META-INF/jars/"}],"curseForgeHash":3667697148,"modrinthHash":"3c08f233d5796544cf25fdaa754a5774220ff5bf"}

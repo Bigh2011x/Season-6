@@ -1,0 +1,70 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-30 12:45:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-30 12:45:39 +0100"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2026-05-30 12:45:35 +0100"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-05-30 12:45:39 +0100"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-05-30 12:45:39 +0100"
+    },
+    "done": true
+  },
+  "veggiesdelight:main/root": {
+    "criteria": {
+      "veggies": "2026-05-30 12:45:39 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-30 12:45:39 +0100"
+    },
+    "done": true
+  },
+  "moredelight:main/get_cooked_rice_with": {
+    "criteria": {
+      "cooked_rice_with_milk_cream_and_chicken_cuts": "2026-05-30 12:45:39 +0100",
+      "cooked_rice_with_milk_cream_and_beef": "2026-05-30 12:45:39 +0100",
+      "cooked_rice_with_milk_cream_and_porkchop": "2026-05-30 12:45:39 +0100"
+    },
+    "done": true
+  },
+  "wythers:world_explorer": {
+    "criteria": {
+      "wythers:cool_plains": "2026-05-30 12:46:04 +0100",
+      "wythers:gravelly_river": "2026-05-30 12:47:23 +0100",
+      "wythers:gravelly_beach": "2026-05-30 12:45:35 +0100",
+      "wythers:autumnal_plains": "2026-05-30 12:47:25 +0100",
+      "wythers:autumnal_forest_edge": "2026-05-30 12:47:26 +0100",
+      "wythers:cool_forest_edge": "2026-05-30 12:46:07 +0100"
+    },
+    "done": false
+  },
+  "moredelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-30 12:45:39 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

@@ -1,0 +1,104 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2026-05-30 13:29:34 +0100"
+    },
+    "done": true
+  },
+  "solcarrot:recipes/food_book": {
+    "criteria": {
+      "has_book": "2026-05-30 13:29:39 +0100",
+      "has_carrot": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2026-05-30 13:29:34 +0100"
+    },
+    "done": true
+  },
+  "veggiesdelight:main/root": {
+    "criteria": {
+      "veggies": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "moredelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "moredelight:main/get_cooked_rice_with": {
+    "criteria": {
+      "cooked_rice_with_milk_cream_and_chicken_cuts": "2026-05-30 13:29:39 +0100",
+      "cooked_rice_with_milk_cream_and_beef": "2026-05-30 13:29:39 +0100",
+      "cooked_rice_with_milk_cream_and_porkchop": "2026-05-30 13:29:39 +0100"
+    },
+    "done": true
+  },
+  "wythers:world_explorer": {
+    "criteria": {
+      "wythers:forest_edge": "2026-05-30 13:29:34 +0100",
+      "wythers:sand_dunes": "2026-05-30 13:29:45 +0100",
+      "wythers:gravelly_beach": "2026-05-30 13:31:29 +0100",
+      "wythers:underground": "2026-05-30 13:31:52 +0100",
+      "wythers:birch_swamp": "2026-05-30 13:31:14 +0100",
+      "wythers:ancient_oak_swamp": "2026-05-30 13:31:04 +0100",
+      "wythers:aspen_crags": "2026-05-30 13:31:15 +0100",
+      "wythers:birch_taiga": "2026-05-30 13:31:19 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-05-30 13:30:40 +0100",
+      "minecraft:ocean": "2026-05-30 13:31:10 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

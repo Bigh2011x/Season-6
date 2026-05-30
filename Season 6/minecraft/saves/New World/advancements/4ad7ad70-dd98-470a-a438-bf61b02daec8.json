@@ -1,0 +1,60 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-30 12:14:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-30 12:12:43 +0100"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-05-30 12:14:28 +0100"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-05-30 12:14:28 +0100"
+    },
+    "done": true
+  },
+  "electrodynamics:dispenseguidebook": {
+    "criteria": {
+      "SpawnIn": "2026-05-30 12:12:43 +0100"
+    },
+    "done": true
+  },
+  "voltaic:dispenseguidebook": {
+    "criteria": {
+      "SpawnIn": "2026-05-30 12:12:43 +0100"
+    },
+    "done": true
+  },
+  "wythers:world_explorer": {
+    "criteria": {
+      "wythers:boreal_forest_red": "2026-05-30 12:13:40 +0100",
+      "wythers:tundra": "2026-05-30 12:12:41 +0100",
+      "wythers:underground": "2026-05-30 12:13:17 +0100",
+      "wythers:crimson_tundra": "2026-05-30 12:13:31 +0100"
+    },
+    "done": false
+  },
+  "northstar:recipes/misc/crafting/moon_sand_paper": {
+    "criteria": {
+      "has_item": "2026-05-30 12:14:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2026-05-30 12:13:39 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}

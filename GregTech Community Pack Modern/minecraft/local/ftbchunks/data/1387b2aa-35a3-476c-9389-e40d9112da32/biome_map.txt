@@ -1,7 +1,0 @@
-#674 minecraft:flower_forest
-#168 wythers:gravelly_beach
-#211 wythers:gravelly_river
-#782 ad_astra:lunar_wastelands
-#4F1 minecraft:ocean
-#3DC minecraft:plains
-#78F wythers:underground

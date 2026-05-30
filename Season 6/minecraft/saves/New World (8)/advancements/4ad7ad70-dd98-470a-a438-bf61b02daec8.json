@@ -1,0 +1,90 @@
+{
+  "create:root": {
+    "criteria": {
+      "0": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2026-05-30 13:20:15 +0100"
+    },
+    "done": true
+  },
+  "solcarrot:recipes/food_book": {
+    "criteria": {
+      "has_book": "2026-05-30 13:20:20 +0100",
+      "has_carrot": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "veggiesdelight:main/root": {
+    "criteria": {
+      "veggies": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "moredelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "simulated:root": {
+    "criteria": {
+      "0": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "aeronautics:root": {
+    "criteria": {
+      "0": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "moredelight:main/get_cooked_rice_with": {
+    "criteria": {
+      "cooked_rice_with_milk_cream_and_chicken_cuts": "2026-05-30 13:20:20 +0100",
+      "cooked_rice_with_milk_cream_and_beef": "2026-05-30 13:20:20 +0100",
+      "cooked_rice_with_milk_cream_and_porkchop": "2026-05-30 13:20:20 +0100"
+    },
+    "done": true
+  },
+  "wythers:world_explorer": {
+    "criteria": {
+      "wythers:granite_canyon": "2026-05-30 13:20:15 +0100",
+      "wythers:badlands_desert": "2026-05-30 13:21:19 +0100",
+      "wythers:sparse_eucalyptus_jungle": "2026-05-30 13:21:47 +0100",
+      "wythers:tropical_forest": "2026-05-30 13:21:51 +0100",
+      "wythers:eucalyptus_jungle": "2026-05-30 13:21:22 +0100",
+      "wythers:badlands_canyon": "2026-05-30 13:21:13 +0100",
+      "wythers:dry_tropical_grassland": "2026-05-30 13:21:50 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_peaks": "2026-05-30 13:21:53 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}
