@@ -1,0 +1,18 @@
+filename = 'easylogin-neoforge-1.21.1-1.0.1.jar'
+name = 'EasyLogin'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'c6532ece3b27bdf16f490c8122adc65d03c79dede7a26b41804cca568ba40e0778b1f554edd37def2d3acdc5ec2f20ff26a7df646b42390989dd41bd4d9a0877'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VYmP7iH5/versions/tpr8fHX7/easylogin-neoforge-1.21.1-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'VYmP7iH5'
+version = 'tpr8fHX7'
