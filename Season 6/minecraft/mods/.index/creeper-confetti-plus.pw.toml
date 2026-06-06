@@ -1,0 +1,18 @@
+filename = 'creeper-confetti-plus-1.1.0+1.21.1.jar'
+name = 'Creeper Confetti Plus'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'creeper-confetti-plus-1.1.0+1.21.1.jar'
+
+[download]
+hash = '57cc1e89c297eab8a4f913c9add3be21dfa64458'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5985953
+project-id = 1158207

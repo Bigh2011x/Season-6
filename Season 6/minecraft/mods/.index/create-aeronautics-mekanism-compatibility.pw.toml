@@ -1,0 +1,18 @@
+filename = 'create_mekanism_compat-0.1.20.jar'
+name = 'Create Aeronautics: Mekanism Compatibility'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_mekanism_compat-0.1.20.jar'
+
+[download]
+hash = '7f82006368d520ec9f285797e2ff630a6c451d86'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8143971
+project-id = 1536749
